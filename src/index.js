@@ -1,45 +1,63 @@
+const path = require('path')
 const express = require('express');
-const res = require('express/lib/response');
+const hbs = require('hbs')
 const port = process.env.PORT || 3000
 
 const app = express();
+app.set('view engine', 'hbs')
+app.set('views', path.join(__dirname , '../views'))
+app.use(express.static(path.join(__dirname,'../public')))
+hbs.registerPartials(path.join(__dirname , '../views/partials'))
+//console.log(path.join(__dirname,'../public'));
+
 
 //setting up the routes for adwiz.cm
-
 app.get('/', (req,res)=>{
-    res.send('hello home page ')
+    res.render('index', { title: "my title"})
 })
-
 app.get('/about', (req,res)=>{
-    res.send('about adwiz')
+    res.render('about',{
+        titre1:'À-Propos d\'Adwiz',
+        titre2:'Nos Recompenses',
+        titre3:'Ils nous ont fait confiance...'
+    })
 })
 
 app.get('/services', (req,res)=>{
-    res.send('about adwiz')
+    res.render('services')
+})
+app.get('/contact', (req,res)=>{
+    res.render('contact')
 })
 
 app.get('/services/kaizen', (req,res)=>{
-    res.send('adwiz kaizen services')
+    res.render('kaizen')
 })
 app.get('/services/r&d', (req,res)=>{
 
-    res.send('recherche et developement ')
+    res.render('recherche')
 
 })
 
 app.get('/services/bds', (req,res)=>{
-    res.send('about service d\'appuie aux pme')
+    res.render('bds')
 })
 
 app.get('/services/cad', (req,res)=>{
-    res.send('conception assiste par ordinateur  adwiz')
+    res.render('cad')
 })
 
-app.get('services/farmadwiz', (req,res)=>{
+app.get('/services/farmadwiz', (req,res)=>{
 
-    res.send('farmadwiz le projet')
+    res.render('farmadwiz')
 
 })
+//unknow route 
+app.get('*', (req,res)=>{
+    res.render('notfound')
+})
+
+
 
 
 //listening to our port 
