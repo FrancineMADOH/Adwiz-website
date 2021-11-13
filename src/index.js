@@ -16,7 +16,11 @@ app.get('/', (req,res)=>{
     res.render('index', { title: "my title"})
 })
 app.get('/about', (req,res)=>{
-    res.render('about')
+    res.render('about',{
+        titre1:'À-Propos d\'Adwiz',
+        titre2:'Nos Recompenses',
+        titre3:'Ils nous ont fait confiance...'
+    })
 })
 
 app.get('/services', (req,res)=>{
