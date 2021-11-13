@@ -1,1 +1,3 @@
-console.log('Hello express');
+let date = new Date().getFullYear()
+document.querySelector('.date').innerHTML = date;
+console.log(date);

@@ -8,6 +8,7 @@ app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname , '../views'))
 app.use(express.static(path.join(__dirname,'../public')))
 hbs.registerPartials(path.join(__dirname , '../views/partials'))
+//console.log(path.join(__dirname,'../public'));
 
 
 //setting up the routes for adwiz.cm
@@ -20,6 +21,9 @@ app.get('/about', (req,res)=>{
 
 app.get('/services', (req,res)=>{
     res.render('services')
+})
+app.get('/contact', (req,res)=>{
+    res.render('contact')
 })
 
 app.get('/services/kaizen', (req,res)=>{

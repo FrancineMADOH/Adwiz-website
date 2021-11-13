@@ -1,8 +1,41 @@
-/*-- customwhite = #fefefe
+/*-- customwhite = c
 customwhite = #0db04f
 custonyellow = #a8e230
 customgrey = #aecba9
-lightgrey = #d6e5d6*/
+lightgrey = */
+*body{
+    background-color:#fefefe ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-color: #0db04f;
+}
+
+.navbar a:hover{
+    color:#a8e230;
+    font-weight: bold;
+}
+.navbar .active{
+    color:#fefefe;
+    font-weight: bold;
+}
+
+footer{
+    /* background-color: #a8e230; */
+    color: #fefefe;
+    background-color: #0db04f;
+}
+footer a{
+    text-decoration: none;
+    color: #fefefe;
+
+}
+footer a:active{}
+footer a:hover{
+    color: #a8e230;
+    font-weight: bold;
+}
+
 h1{
     color: #0db04f;
 }
