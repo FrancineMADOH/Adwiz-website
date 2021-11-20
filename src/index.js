@@ -24,7 +24,11 @@ app.get('/about', (req,res)=>{
 })
 
 app.get('/services', (req,res)=>{
-    res.render('services')
+    res.render('services', {
+        titre1:'',
+        titre2:'',
+        titre3:''
+    })
 })
 app.get('/contact', (req,res)=>{
     res.render('contact')
@@ -37,6 +41,9 @@ app.get('/services/r&d', (req,res)=>{
 
     res.render('recherche')
 
+})
+app.get('/services/propriete-intellectuelle', (req,res)=>{
+    res.render('pi')
 })
 
 app.get('/services/bds', (req,res)=>{

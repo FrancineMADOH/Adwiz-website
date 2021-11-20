@@ -47,33 +47,18 @@ header{
     margin-top: 10%;
 }
 
-footer{
-    /* background-color: #a8e230; */
-    color: #fefefe;
-    background-color: #0db04f;
+/* services page style*/
+/* 
+#services-wrapper:hover{
+    position: relative;
+    visibility:hidden;
 }
-footer a{
-    text-decoration: none;
-    color: #fefefe;
-
+#services-wrapper .services-description{
+    position: relative;
+    visibility: hidden;
+    left: 0;
+    bottom: 20px;
 }
-footer a:active{}
-footer a:hover{
-    color: #a8e230;
-}
-
-h1{
-    color: #a8e230;
-}
-
-/* @media  screen and (min-width:1100px) {
-    .main-landing-page-content{
-        height: 80%;
-    }
-    
-}
-@media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
-    }
-  } */
+#services-wrapper:hover .services-description{
+    visibility: visible;
+} */
