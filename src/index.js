@@ -19,7 +19,9 @@ app.get('/about', (req,res)=>{
     res.render('about',{
         titre1:'À-Propos d\'Adwiz',
         titre2:'Nos Recompenses',
-        titre3:'Ils nous ont fait confiance...'
+        titre3:'Ils nous ont fait confiance...',
+        titre4:'Une equipe dynamique et polyvalente a votre ecoute!',
+        titre5:'Nos clients temoignent !'
     })
 })
 
@@ -42,7 +44,7 @@ app.get('/services/r&d', (req,res)=>{
     res.render('recherche')
 
 })
-app.get('/services/propriete-intellectuelle', (req,res)=>{
+app.get('/services/pi', (req,res)=>{
     res.render('pi')
 })
 
