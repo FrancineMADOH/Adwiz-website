@@ -19,12 +19,18 @@ app.get('/about', (req,res)=>{
     res.render('about',{
         titre1:'À-Propos d\'Adwiz',
         titre2:'Nos Recompenses',
-        titre3:'Ils nous ont fait confiance...'
+        titre3:'Ils nous ont fait confiance...',
+        titre4:'Une equipe dynamique et polyvalente a votre ecoute!',
+        titre5:'Nos clients temoignent !'
     })
 })
 
 app.get('/services', (req,res)=>{
-    res.render('services')
+    res.render('services', {
+        titre1:'',
+        titre2:'',
+        titre3:''
+    })
 })
 app.get('/contact', (req,res)=>{
     res.render('contact')
@@ -37,6 +43,9 @@ app.get('/services/r&d', (req,res)=>{
 
     res.render('recherche')
 
+})
+app.get('/services/pi', (req,res)=>{
+    res.render('pi')
 })
 
 app.get('/services/bds', (req,res)=>{

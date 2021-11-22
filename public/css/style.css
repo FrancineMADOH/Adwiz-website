@@ -65,6 +65,9 @@ footer a:hover{
 h1{
     color: #a8e230;
 }
+.quote{
+    font-size: 30px;
+}
 
 /* @media  screen and (min-width:1100px) {
     .main-landing-page-content{
