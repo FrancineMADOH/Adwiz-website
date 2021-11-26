@@ -27,8 +27,8 @@ app.get('/about', (req,res)=>{
 
 app.get('/services', (req,res)=>{
     res.render('services', {
-        titre1:'',
-        titre2:'',
+        titre1:'Nos Services',
+        titre2:'Faites nous confiance !',
         titre3:''
     })
 })
