@@ -48,10 +48,22 @@ header{
 }
 
 footer{
-    /* background-color: #a8e230; */
+background-color: #a8e230; 
+
+    /* #map {
+        height: 100%;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      /* html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
     color: #fefefe;
-    background-color: #0db04f;
-}
+    background-color: #0db04f; */
+} */
 footer a{
     text-decoration: none;
     color: #fefefe;

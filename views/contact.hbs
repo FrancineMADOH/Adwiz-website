@@ -6,21 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <title>Adwiz</title>
 </head>
 
 <body>
     {{> _header}}
-    <h1> contact </h1>
+    <main class="contact-page">
+        <div class="row">
+            <div class="col-lg-6">
+                {{> _contact_form}}
+            </div>
+            <div class="col-lg-6 contact">
+                <h3> Nos contacts </h3>
+                <p class="contact-list">
+                <ul class="">
+
+                    <li class="">
+                        Telephone: <strong>857 787 741 </strong>
+                    </li>
+                    <li class="">
+                        Adresse Email: <strong>contact@email.com</strong>
+                    </li>
+                    <li class="">
+                        BP 0000 <strong>Yaounde - Cameroun</strong>
+                    </li>
+                    <li class="">
+                        Situe a Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row map-view">
+            <h1>Visitez Nous !!!</h1>
+            <div id="map"></div>
+        </div>
+    </main>
     {{> _footer}}
-    <script src="./js/app.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"></script>
 </body>
 
 </html>
