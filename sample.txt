@@ -1,0 +1,66 @@
+/*-- customwhite = c
+customwhite = #0db04f
+custonyellow = #a8e230
+customgrey = #aecba9
+lightgrey = */
+*body{
+    background-color:#fefefe ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-color: #0db04f;
+}
+
+.navbar a:hover{
+    color:#a8e230;
+}
+.navbar .active{
+    color:#fefefe;
+    font-weight: bold;
+}
+.custom-button{
+    background-color: #a8e230;
+    height:  40px;
+    color:#fefefe;
+    font-weight: bold;
+    border: solid 1px #fefefe;
+    border-radius: 15px;
+    font-size: 1em;
+}
+.custom-button2{
+    background-color:#0db04f;
+    height:  40px;
+    color:#fefefe;
+    font-weight: bold;
+    border: solid 1px #fefefe;
+    border-radius: 15px;
+    font-size: 1em;
+}
+.main-landing-page-content{
+    margin-top: 10%;
+
+}
+.main-landing-page-content h2{
+    font-size: 3em;
+}
+.custom-margin{
+    margin-top: 10%;
+}
+
+footer{
+background-color: #a8e230; 
+
+    /* #map {
+        height: 100%;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      /* html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    color: #fefefe;
+    background-color: #0db04f; */
+} 
