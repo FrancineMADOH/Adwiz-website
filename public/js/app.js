@@ -1,6 +1,23 @@
-let date = new Date().getFullYear()
-document.querySelector('.date').innerHTML = date;
-console.log(date);
+$(document).ready(function () {
+
+  let date = new Date().getFullYear()
+  $('.date').text(date);
+
+  //Toogle class active class
+ $('#header .nav-link').click( function(){
+   if($(this).hasClass('active')){
+     $('#header .nav-link').removeClass('active');
+   }
+
+   else{
+     $('#header .nav-link').removeClass('.active');
+     $(this).addClass('active');
+   }
+ })
+
+
+});
+
 
 /*
 let map;
