@@ -30,8 +30,59 @@ color:#fff;
 .main-landing-page-content h3{
     margin-bottom: 100px;
 }
-
-
+body h1{
+    font-weight: bold;
+    margin: 3% 0 3% 0;
+    color: #0db04f;
+    font-size: 50px;
+    text-align: center;
+}
+.services-icon  {
+    color:#0db04f;
+    font-size: 60px;
+}
+.services-description{
+    text-align: center;
+}
+.services-description a{
+    color: #0db04f;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+}
+.services-description a:hover{
+    color: #a8e230;
+}
+.services-title{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.services-description-title{
+    margin-bottom: 30px;
+    color: #a8e230;
+    font-weight: bolder;
+    font-style: italic;
+}
+.trust-intro p{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 6%;
+    margin: 8% 0 8% 0;
+}
+.trust-description{
+    text-align: center;
+    margin: 15% 0 10% 0;
+}
+.trust-title{
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 30px 0 40px 0;
+}
+.trust-text{
+    padding: 10px;
+    font-size: 1em;
+}
 
 .custom-button{
     background-color:#0db04f;
@@ -59,7 +110,7 @@ footer{
     footer a:hover{
         color: #fff;
     }
-    footer h1{
+    footer h2{
         font-size: 3em;
         font-weight: bolder;
     }
