@@ -81,23 +81,24 @@ body h1{
 }
 .trust-text{
     padding: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .about-intro {
-    margin:10% 0 8% 0;
-    font-size: 1.2em;
+    margin:5% 0 1% 0;
+    font-size: 1em;
     /* line-height: 1px; */
 }
 .price{
     text-align: center;
-    margin: 15% 0 10% 0;
+    margin: 5% 0 5% 0;
 }
 .price-image{
     padding: 10px;
     margin-bottom: 20px;
 }
 .partners-trust p{
-    margin: 5% 0 5% 0;
+    margin: 5% 0 0 0;
+    font-size: 1em;
 }
 .partners-trust{
  margin-bottom: 10%;
@@ -105,7 +106,25 @@ body h1{
 .patners{
     margin: 10% 0 10% 0;
 }
-.partners img{}/* to do*/
+.partners img{
+    border-radius: 10px;
+}/* to do*/
+.partner-text{
+    margin: 8% 0 15% 0;
+    font-size: 1em;
+}
+.team{
+    margin: 2% 0 5% 0;
+}
+.team .team-member-image{
+    border-radius: 10px;
+}
+.team-member-name{
+    color: #0db04f;
+}
+.team-member-socials a{
+    color: #0db04f;
+}
 .testimonial{
     background-color: #f1f1f1e1;
     margin: 5% 0 10% 0;
