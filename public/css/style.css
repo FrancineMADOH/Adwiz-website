@@ -83,6 +83,51 @@ body h1{
     padding: 10px;
     font-size: 1em;
 }
+.about-intro {
+    margin:10% 0 8% 0;
+    font-size: 1.2em;
+    /* line-height: 1px; */
+}
+.price{
+    text-align: center;
+    margin: 15% 0 10% 0;
+}
+.price-image{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.partners-trust p{
+    margin: 5% 0 5% 0;
+}
+.partners-trust{
+ margin-bottom: 10%;
+}
+.patners{
+    margin: 10% 0 10% 0;
+}
+.partners img{}/* to do*/
+.testimonial{
+    background-color: #f1f1f1e1;
+    margin: 5% 0 10% 0;
+    padding: 5% 0 7% 0;
+    text-align: center;
+}
+.client-testimonial-text{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.quote{
+    font-size: 3em;
+    color: #a8e230;
+}
+.client-testimonial-name{
+    color: #0db04f;
+    font-weight: bold;
+    font-style: italic;
+}
+.client-testimonial-company{
+    color: #a8e230;
+}
 
 .custom-button{
     background-color:#0db04f;
