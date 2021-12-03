@@ -6,22 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link rel="icon" href="./images/logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <title>Adwiz</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>Adwiz | A-Propos</title>
 </head>
 
 <body>
     {{> _header}}
     <main class="container main-about">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 about-intro">
                 <h1 class="text-center"> {{titre1}} </h1>
                 <p class="text-justify ">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, impedit omnis aut quia distinctio
@@ -29,7 +36,7 @@
                     laudantium iure.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam accusamus, ullam sapiente
                     reprehenderit consequuntur repellendus, ex rem iusto sed at explicabo mollitia! Temporibus, quaerat
-                    iste ducimus iure quas asperiores voluptatem?  
+                    iste ducimus iure quas asperiores voluptatem?
                 </p>
                 <p class="">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, impedit omnis aut quia distinctio
@@ -40,265 +47,224 @@
                 </p>
             </div>
         </div>
+
         <div class="row price">
-            <h1 class="price-title">{{ titre2 }} </h1>
-            <div class="col-lg-4">
-                <div class="price-image">
-                    <img class="img img-fluid" src="./images/tl.png" alt="">
-                </div>
-                <div>
-                    <p class="price-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ut quasi quas at nihil asperiores
-                        eligendi  delectus saepe
-                        distinctio autem a cumque?
-                    </p>
-                </div>
+            <div class="col-lg-12 mb-4">
+                <h1 class=>{{ titre2 }} </h1>
             </div>
-            <div class="col-lg-4">
-                <div class="price-image">
-                    <img class="img img-fluid" src="./images/tl.png" alt="">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="price-image">
+                        <img class="img img-fluid" src="./images/tl.png" alt="">
+                    </div>
+                    <div>
+                        <p class="price-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ut quasi quas at nihil
+                            asperiores
+                            eligendi delectus saepe
+                            distinctio autem a cumque?
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="price-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ut quasi quas at nihil asperiores
-                        eligendi delectus saepe
-                        distinctio autem a cumque?
-                    </p>
+                <div class="col-lg-4">
+                    <div class="price-image">
+                        <img class="img img-fluid" src="./images/tl.png" alt="">
+                    </div>
+                    <div>
+                        <p class="price-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ut quasi quas at nihil
+                            asperiores
+                            eligendi delectus saepe
+                            distinctio autem a cumque?
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="price-image">
-                    <img class="img img-fluid" src="./images/tl.png" alt="">
-                </div>
-                <div>
-                    <p class="price-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ut quasi quas at nihil asperiores
-                        eligendi delectus saepe
-                        distinctio autem a cumque?
-                    </p>
+                <div class="col-lg-4">
+                    <div class="price-image">
+                        <img class="img img-fluid" src="./images/tl.png" alt="">
+                    </div>
+                    <div>
+                        <p class="price-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ut quasi quas at nihil
+                            asperiores
+                            eligendi delectus saepe
+                            distinctio autem a cumque?
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row ">
-            <h1 class=""> {{ titre3 }} </h1>
+
+        <div class="row partners-trust">
             <div class="col-lg-12">
-                <p class="">
+                <h1 class=""> {{ titre3 }} </h1>
+
+                <p class="text-justify">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, impedit omnis aut quia distinctio
                     eaque a aliquid nemo! Sunt ea dolorum soluta quisquam voluptatem iste, ullam fugit necessitatibus
                     laudantium iure.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam accusamus, ullam sapiente
                     reprehenderit consequuntur repellendus, ex rem iusto sed at explicabo mollitia! Temporibus, quaerat
                     iste ducimus iure quas asperiores voluptatem?
-                    
+
                 </p>
             </div>
-            <div class="row partners">
-                <div class="col-lg-12 text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item  partner-image">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                        <li class="list-inline-item  partner-image">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                        <li class="list-inline-item partner-image">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                        <li class="list-inline-item partner-image ">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row partners">
-                <div class="col-lg-12 text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item  partner-image">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                        <li class="list-inline-item  partner-image">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                        <li class="list-inline-item partner-image">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                        <li class="list-inline-item partner-image ">
-                            <img src="./images/tl.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
         </div>
+        <div class="row text-center partners">
+                <div class="col-lg-4 ">
+                    <img src="./images/tl.png" alt="">
+                    <p class="partner-text text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis fuga dolorum voluptatum natus, quod quidem illo fugit labore, culpa quas repellat libero accusamus dicta facere placeat velit. Dicta, doloribus!
+                    </p>
+                </div>
+                <div class="col-lg-4 ">
+                    <img src="./images/tl.png" alt="">
+                    <p class="partner-text text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis fuga dolorum voluptatum natus, quod quidem illo fugit labore, culpa quas repellat libero accusamus dicta facere placeat velit. Dicta, doloribus!
+                    </p>
+                </div>
+                <div class="col-lg-4 ">
+                    <img src="./images/tl.png" alt="">
+                    <p class="partner-text text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis fuga dolorum voluptatum natus, quod quidem illo fugit labore, culpa quas repellat libero accusamus dicta facere placeat velit. Dicta, doloribus!
+                    </p>
+                    </div>
+            </div>
 
-        <div class="row team">
+        <div class="row ">
             <h1> {{titre4}}</h1>
-            <div class="row">
+            <div class="row team">
                 <div class="col-lg-3 team-member">
                     <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
-                        <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
+                        <img class="card-img-top team-member-image p-3" src="./images/tl.png" alt="team-member">
+                        <div class="card-body text-justify">
+                            <h5 class="card-title  text-center team-member-name ">Jean roi trois fois</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center team-member-title m-3">CEO,CO-founder</h6>
+                            <p class="card-text text-justify">une breve description de la personne concernee
+                                profil,experience,valeurs </p>
+                            <p class="text-center team-member-socials">
                                 <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
+                            </p>
                         </div>
                     </div>
                 </div>
-                 <div class="col-lg-3 team-member">
-                    <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
-                        <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
-                                <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-3 team-member">
-                    <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
-                        <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
-                                <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-3 team-member">
-                    <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
-                        <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
-                                <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <div class="row " style="margin-top: 20px;">
                 <div class="col-lg-3 team-member">
                     <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
+                        <img class="card-img-top team-member-image p-3" src="./images/tl.png" alt="team-member">
                         <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
+                            <h5 class="card-title  text-center team-member-name">Jean roi trois fois</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center m-3">CEO,CO-founder</h6>
+                            <p class="card-text text-justify">une breve description de la personne concernee
+                                profil,experience,valeurs </p>
+                            <p class="text-center team-member-socials">
                                 <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
+                            </p>
                         </div>
                     </div>
                 </div>
-                 <div class="col-lg-3 team-member">
+                <div class="col-lg-3 team-member">
                     <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
+                        <img class="card-img-top team-member-image p-3" src="./images/tl.png" alt="team-member">
                         <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
+                            <h5 class="card-title text-center team-member-name">Jean roi trois fois</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center m-3 team-member-title">CEO,CO-founder</h6>
+                            <p class="card-text text-justify team-member-description">une breve description de la personne concernee
+                                profil,experience,valeurs </p>
+                            <p class="text-center team-member-socials">
                                 <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
+                            </p>
                         </div>
                     </div>
                 </div>
-                 <div class="col-lg-3 team-member">
+                <div class="col-lg-3 team-member">
                     <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
+                        <img class="card-img-top team-member-image p-3" src="./images/tl.png" alt="team-member">
                         <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
+                            <h5 class="card-title text-center team-member-name">Jean roi trois fois</h5>
+                            <h6 class="card-subtitle m-2 text-center text-muted team-member-title">CEO,CO-founder</h6>
+                            <p class="card-text test-justify team-member-description">une breve description de la personne concernee
+                                profil,experience,valeurs </p>
+                            <p class="text-center team-member-socials">
                                 <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
+                            </p>
                         </div>
                     </div>
                 </div>
-                 <div class="col-lg-3 team-member">
-                    <div class="card" style="">
-                        <img class="card-img-top team-member-image" src="./images/tl.png" alt="team-member">
-                        <div class="card-body">
-                            <h5 class="card-title team-member-name">Jean roi trois fois</h5>
-                            <h6 class="card-subtitle mb-2 text-muted team-member-title">CEO,CO-founder</h6>
-                            <p class="card-text team-member-description">une breve description de la personne concernee profil,experience,valeurs </p>
-                           <p class="text-center team-member-socials">
-                                <a href="" class="card-link"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="#" class="card-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           </p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
         </div>
+
+
+        
         <div class="row testimonials">
-            <h1>{{titre5}} </h1>
-            <div class="col-lg-4 testimonial">
-                <p class="client-testimonial-text">
-                    <span class="quote">"</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, nihil neque, illum placeat aliquid nulla amet.
-                    <span class="quote">"</span>
-                 </p>
-                <div class="client-testimonial-details text-center">
-                    <h5 class="client-testimonial-name"> client name</h5>
-                    <h6 class="client-testimonial-company text-muted">client company</h6>
+            <div class="col-lg-12">
+            <h1 class="title">{{titre5}} </h1>
+            </div>
+            <div id="" class="carousel slide col-lg-12" data-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class=" testimonial d-block w-100">
+                                <p class="client-testimonial-text">
+                                    <span class="quote">“ </span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, nihil neque,
+                                    illum placeat aliquid nulla amet.
+                                    <span class="quote">”</span>
+                                </p>
+                                <div class="client-testimonial-details text-center">
+                                    <h5 class="client-testimonial-name"> client name</h5>
+                                    <h6 class="client-testimonial-company">client company</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial d-block w-100">
+                                <p class="client-testimonial-text">
+                                    <span class="quote">“</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, nihil neque,
+                                    illum placeat aliquid nulla amet.
+                                    <span class="quote">”</span>
+                                </p>
+                                <div class="client-testimonial-details text-center">
+                                    <h5 class="client-testimonial-name"> client name</h5>
+                                    <h6 class="client-testimonial-company">client company</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class=" testimonial d-block w-100">
+                                <p class="client-testimonial-text">
+                                    <span class="quote">“</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, nihil neque,
+                                    illum placeat aliquid nulla amet.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
+                                    molestias fuga repellendus, non laborum ipsa, iste doloribus doloremque blanditiis,
+                                    fugiat deleniti similique quisquam. Alias impedit at nisi! Aperiam, nobis?
+                                    <span class="quote">”</span>
+                                </p>
+                                <div class="client-testimonial-details text-center">
+                                    <h5 class="client-testimonial-name"> client name</h5>
+                                    <h6 class="client-testimonial-company">client company</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 testimonial">
-                <p class="client-testimonial-text">
-                    <span class="quote">"</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, nihil neque, illum placeat aliquid nulla amet.
-                    <span class="quote">"</span>
-                 </p>
-                <div class="client-testimonial-details text-center">
-                    <h5 class="client-testimonial-name"> client name</h5>
-                    <h6 class="client-testimonial-company text-muted">client company</h6>
-                </div>
-            </div>
-            <div class="col-lg-4 testimonial">
-                <p class="client-testimonial-text">
-                    <span class="quote">"</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, nihil neque, illum placeat aliquid nulla amet.
-                    <span class="quote">"</span>
-                 </p>
-                <div class="client-testimonial-details text-center">
-                    <h5 class="client-testimonial-name"> client name</h5>
-                    <h6 class="client-testimonial-company text-muted">client company</h6>
-                </div>
-            </div>
-            
-        </div>
     </main>
     {{> _footer}}
-    <script  src="./js/app.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
