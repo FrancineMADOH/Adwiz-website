@@ -81,7 +81,7 @@ body h1{
 }
 .trust-text{
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .about-intro {
     margin:5% 0 1% 0;
@@ -90,7 +90,7 @@ body h1{
 }
 .price{
     text-align: center;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 3% 0;
 }
 .price-image{
     padding: 10px;
@@ -147,6 +147,83 @@ body h1{
 .client-testimonial-company{
     color: #a8e230;
 }
+.ask-service-text{
+    margin:5% 0 5% 0;
+}
+.ask-service-text p{
+    margin:10% 0 10% 0;
+}
+.our-moto{
+    margin: 5% 2% 0% 2%;
+    padding: 2%;
+}
+.moto-title{
+    margin: 2% ;
+    font-weight: bold;
+    color:#0db04f;
+}
+.moto-description{
+    margin: 10% 0 0 0;
+}
+.our-method{
+    margin: 5% 2% 5% 2%;
+}
+.method-description{
+    margin: 10% 0 5% 0;
+}
+.our-method h3{
+    font-weight: bold;
+}
+.pack-service-title{
+    color: #0db04f;
+}
+.pack-service-description{
+    margin: 10% 2% 10% 2%;
+    font-size: 1em;
+}
+.pack-list{
+    margin: 2% 5% 2% 5%;
+}
+.pack-list-title{
+    color: #0db04f;
+    font-weight: bold;
+    margin: 2% 0 2% 0;
+}
+.pack-list{
+    margin: 5% 0 5% 0;
+}
+.pack-items-list{
+    margin: 0 0 3% 0;
+}
+.pack-items-list li{
+    font-weight: 400;
+    font-size: 20px;
+}
+.pack-items-list i{
+    font-size: 20px;
+    color: #0db04f;
+}
+.service-testimonial{
+    margin: 3% 3% 0 3%;
+    background-color: #d5e0d9;
+}
+.client-testimonial-title{
+    color: #0db04f;
+    margin: 2% 0 2% 0;
+    font-weight: bold;
+}
+.client-name{
+    color: #0db04f;
+}
+.client-corp{
+    color:#0db04f;
+}
+.client-description{
+    color: #0db04f;
+}
+.main-services-details a:hover{
+    color: #fff;
+}
 
 .custom-button{
     background-color:#0db04f;
@@ -154,6 +231,7 @@ body h1{
     padding: 10px;
     color: #fff;
     font-weight: 700;
+    text-decoration: none;
 }
 .list-item{
     display: inline-flex;
