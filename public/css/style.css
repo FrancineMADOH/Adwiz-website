@@ -224,6 +224,42 @@ body h1{
 .main-services-details a:hover{
     color: #fff;
 }
+.contatct-us{
+    margin: 1%;
+}
+.contact-form{
+    padding: 2%;
+    border: solid 1px #0db04f;
+}
+.contact{
+    border: solid 1px #0db04f;
+
+}
+.contact h3{
+    font-weight: bold;
+    color: #0db04f;
+    text-align: center;
+    margin-top: 5%;
+}
+.fa-text{
+    
+    padding:5%;
+}
+fa-container{
+    margin-top: 10%;
+}
+#gradient{
+    margin: 6% 0 10% 0;
+    /* background-image: linear-gradient(180deg,#a8e230, #444); */
+    background-image: linear-gradient(to right, #0db04f, #000);
+    color: #fff;
+}
+.fa-desc{
+    margin-bottom: 5%;
+}
+.fa-title{
+    margin-bottom: 5%;
+}
 
 .custom-button{
     background-color:#0db04f;

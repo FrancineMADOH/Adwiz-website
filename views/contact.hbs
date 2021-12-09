@@ -14,35 +14,38 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <title>Adwiz</title>
+    <title>Adwiz | Contact </title>
 </head>
 
 <body>
     {{> _header}}
-    <main class="contact-page">
-        <div class="row">
-            <div class="col-lg-6">
+    <main class="contact-page container-fluid">
+        <div class="row contatct-us">
+            <div class="col-lg-6 contact-form text-center">
                 {{> _contact_form}}
             </div>
             <div class="col-lg-6 contact">
-                <h3> Nos contacts </h3>
-                <p class="contact-list">
-                <ul class="">
+                <h3>Contactez Nous!</h3>
+                <div>
+                    <ul class="list-inline pack-items-list">
+                        <li class="list-inline-item">
+                            Telephone: <strong>857 787 741 | 524 521 212</strong>
+                        </li>
+                        <li class="list-inline-item">
+                            Adresse Email: <strong>contact@email.com | mail@mail.com</strong>
 
-                    <li class="">
-                        Telephone: <strong>857 787 741 </strong>
-                    </li>
-                    <li class="">
-                        Adresse Email: <strong>contact@email.com</strong>
-                    </li>
-                    <li class="">
-                        BP 0000 <strong>Yaounde - Cameroun</strong>
-                    </li>
-                    <li class="">
-                        Situe a Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                </ul>
-                </p>
+                        </li>
+                        <li class="list-inline-item">
+                            BP 0000 <strong>Yaounde - Cameroun</strong>
+
+                        </li>
+                        <li class="list-inline-item">
+                            Situe a Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                        </li>
+
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="row map-view">
@@ -52,7 +55,8 @@
     </main>
     {{> _footer}}
     <script src="../js/app.js"></script>
-    {{!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"></script> --}}
+    {{!--
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"></script> --}}
 </body>
 
 </html>
