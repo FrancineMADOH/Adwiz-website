@@ -1,15 +1,16 @@
 const path = require('path')
 const express = require('express');
 const hbs = require('hbs')
+const nodemailer = require('nodemailer')
+const dotenv = require('dotenv')
 const port = process.env.PORT || 3000
+//require(dotenv).config()
 
 const app = express();
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname , '../views'))
 app.use(express.static(path.join(__dirname,'../public')))
 hbs.registerPartials(path.join(__dirname , '../views/partials'))
-//console.log(path.join(__dirname,'../public'));
-
 
 //setting up the routes for adwiz.cm
 app.get('/', (req,res)=>{
@@ -58,15 +59,20 @@ app.get('/services/cad', (req,res)=>{
 
 app.get('/services/farmadwiz', (req,res)=>{
 
-    res.render('farmadwiz')
+    res.render('farmadwiz', {
+        titre1: 'FarmAdwiz'
+    })
 
 })
+
 //unknow route 
 app.get('*', (req,res)=>{
     res.render('notfound')
 })
 
 
+
+//https://lo-victoria.com/how-to-build-a-contact-form-with-javascript-and-nodemailer
 
 
 //listening to our port 

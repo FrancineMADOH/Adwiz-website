@@ -1,8 +1,4 @@
 
-/* $customwhite = #0db04f
-custonyellow = #a8e230
-customgrey = c
-lightgrey = #444 */
 nav .navbar-nav  li a {
     font-weight: bold;
 }
@@ -96,10 +92,12 @@ body h1{
     padding: 10px;
     margin-bottom: 20px;
 }
-.partners-trust p{
-    margin: 5% 0 0 0;
-    font-size: 1em;
+.partner-mosaic{
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
+
 .partners-trust{
  margin-bottom: 10%;
 }
@@ -115,6 +113,9 @@ body h1{
 }
 .team{
     margin: 2% 0 5% 0;
+}
+.team a:hover{
+    color:#444;
 }
 .team .team-member-image{
     border-radius: 10px;
@@ -224,15 +225,20 @@ body h1{
 .main-services-details a:hover{
     color: #fff;
 }
-.contatct-us{
-    margin: 1%;
+#contatct-us{
+    margin: 3%;
+}
+.contact-page h3{
+    color: #0db04f;
+    margin: 2% 0 5% 0;
+    font-weight: bold;
 }
 .contact-form{
     padding: 2%;
-    border: solid 1px #0db04f;
+    /* border: solid 1px #0db04f; */
 }
-.contact{
-    border: solid 1px #0db04f;
+.contact-page hr{
+    border: #000 3px solid;
 
 }
 .contact h3{
@@ -247,11 +253,16 @@ body h1{
 }
 fa-container{
     margin-top: 10%;
+    
 }
 #gradient{
     margin: 6% 0 10% 0;
-    /* background-image: linear-gradient(180deg,#a8e230, #444); */
-    background-image: linear-gradient(to right, #0db04f, #000);
+    background-image: url('../images/farmadwiz.png') ,linear-gradient(to right, #a8e230, #444);
+    background-repeat: no-repeat;
+    background-origin: initial;
+    /* background-origin:content-box; */
+    background-size: cover;
+    /* background-image: linear-gradient(to right, #0db04f, #000); */
     color: #fff;
 }
 .fa-desc{
