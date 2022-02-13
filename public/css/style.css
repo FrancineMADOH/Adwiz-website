@@ -1,8 +1,4 @@
 
-/* $customwhite = #0db04f
-custonyellow = #a8e230
-customgrey = c
-lightgrey = #444 */
 nav .navbar-nav  li a {
     font-weight: bold;
 }
@@ -43,7 +39,9 @@ body h1{
 }
 .services-description{
     text-align: center;
+    display: none;
 }
+
 .services-description a{
     color: #0db04f;
     text-decoration: none;
@@ -81,7 +79,7 @@ body h1{
 }
 .trust-text{
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .about-intro {
     margin:5% 0 1% 0;
@@ -90,16 +88,18 @@ body h1{
 }
 .price{
     text-align: center;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 3% 0;
 }
 .price-image{
     padding: 10px;
     margin-bottom: 20px;
 }
-.partners-trust p{
-    margin: 5% 0 0 0;
-    font-size: 1em;
+.partner-mosaic{
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
+
 .partners-trust{
  margin-bottom: 10%;
 }
@@ -115,6 +115,9 @@ body h1{
 }
 .team{
     margin: 2% 0 5% 0;
+}
+.team a:hover{
+    color:#444;
 }
 .team .team-member-image{
     border-radius: 10px;
@@ -147,6 +150,134 @@ body h1{
 .client-testimonial-company{
     color: #a8e230;
 }
+.ask-service-text{
+    margin:5% 0 5% 0;
+}
+.ask-service-text p{
+    margin:10% 0 10% 0;
+}
+.our-moto{
+    margin: 5% 2% 0% 2%;
+    padding: 2%;
+}
+.moto-title{
+    margin: 2% ;
+    font-weight: bold;
+    color:#0db04f;
+}
+.moto-description{
+    margin: 10% 0 0 0;
+}
+.our-method{
+    margin: 5% 2% 5% 2%;
+}
+.method-description{
+    margin: 10% 0 5% 0;
+}
+.our-method h3{
+    font-weight: bold;
+}
+.pack-service-title{
+    color: #0db04f;
+}
+.pack-service-description{
+    margin: 10% 2% 10% 2%;
+    font-size: 1em;
+}
+.pack-list{
+    margin: 2% 5% 2% 5%;
+}
+.pack-list-title{
+    color: #0db04f;
+    font-weight: bold;
+    margin: 2% 0 2% 0;
+}
+.pack-list{
+    margin: 5% 0 5% 0;
+}
+.pack-items-list{
+    margin: 0 0 3% 0;
+}
+.pack-items-list li{
+    font-weight: 400;
+    font-size: 20px;
+}
+.pack-items-list i{
+    font-size: 20px;
+    color: #0db04f;
+}
+.service-testimonial{
+    margin: 3% 3% 0 3%;
+    background-color: #d5e0d9;
+}
+.client-testimonial-title{
+    color: #0db04f;
+    margin: 2% 0 2% 0;
+    font-weight: bold;
+}
+.client-name{
+    color: #0db04f;
+}
+.client-corp{
+    color:#0db04f;
+}
+.client-description{
+    color: #0db04f;
+}
+.main-services-details a:hover{
+    color: #fff;
+}
+#contatct-us{
+    margin: 3%;
+}
+.contact-page h3{
+    color: #0db04f;
+    margin: 2% 0 5% 0;
+    font-weight: bold;
+}
+.contact-form{
+    padding: 2%;
+    /* border: solid 1px #0db04f; */
+}
+.contact-page hr{
+    border: #000 3px solid;
+
+}
+.contact h3{
+    font-weight: bold;
+    color: #0db04f;
+    text-align: center;
+    margin-top: 5%;
+}
+.fa-text{
+    
+    padding:5%;
+}
+.fa-container{
+    margin-top: 10%;  
+}
+.fa-container a:hover{
+    color: #444;
+}
+#gradient{
+    margin: 6% 0 6% 0;
+    background-image: url('../images/farmadwiz.png');
+    /* linear-gradient(to right, #a8e230, #444) */
+    background-repeat: no-repeat;
+    background-origin: initial;
+    /* background-origin:content-box; */
+    background-size: cover;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    /* background-image: linear-gradient(to right, #0db04f, #000); */
+}
+.fa-desc{
+    margin-bottom: 5%;
+}
+.fa-title{
+    margin-bottom: 5%;
+}
 
 .custom-button{
     background-color:#0db04f;
@@ -154,6 +285,7 @@ body h1{
     padding: 10px;
     color: #fff;
     font-weight: 700;
+    text-decoration: none;
 }
 .list-item{
     display: inline-flex;
@@ -178,3 +310,4 @@ footer{
         font-size: 3em;
         font-weight: bolder;
     }
+

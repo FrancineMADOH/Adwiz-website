@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link rel="icon" href="../images/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,44 +14,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <title>Adwiz</title>
+    <title>Adwiz | FarmAdwiz</title>
 </head>
 
 <body>
     {{> _header}}
-    <main class="container-fluid">
-        <div class="row coming-soon">
-            <h1 class="coming-soon-title">Comming Soon...</h1>
-            <hr>
-            <p class="coming-soon-text"></p>
-        </div>
-
-        <div class="row">
-            <h1 class="title"> 
-                 Distinctio neque repellat laudantium labore eum.
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloremque nisi magnam laboriosam aut rem pariatur ea magni possimus, molestias expedita necessitatibus commodi quaerat dolores ex odio, recusandae, voluptas quis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repudiandae soluta, assumenda atque, aut tempore iste iure pariatur necessitatibus iusto cumque quibusdam magni eum laboriosam quis laudantium deleniti consectetur maiores!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quod, accusamus voluptatem nostrum inventore veritatis atque. Necessitatibus cupiditate saepe, quod, at accusamus et, odio quis eius voluptatum voluptas omnis officia.
-            </p>
-        </div>
-        <div class="row booknow">
-            <div class="col-lg-6">
-                <h2 class="title"></h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea odit magnam consequatur cum assumenda officia, perspiciatis in error fugit? Aperiam iusto ipsam eius adipisci similique, consequuntur sunt magni quibusdam laborum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sit delectus minus exercitationem, vel fugit consectetur eligendi id. Molestiae magnam fuga obcaecati, tenetur non itaque nemo! Excepturi necessitatibus asperiores in.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellat maiores voluptatem, error reiciendis cum iste, quod modi id quam recusandae sunt? Culpa in voluptates pariatur ex dolores odit corrupti?
+    <main class="container">
+        <div class="row fa-container">
+            <div class="col-lg-12 fa-text" id="gradient">
+                <h1>{{ titre1 }}</h1>
+                <h1 class="fa-title " style="color: #fff;">Coming soon...</h1>
+                <p class="text-justify fa-desc">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptates accusantium, quam possimus
+                    enim numquam iusto dicta illum tenetur, debitis id cumque ipsa accusamus eligendi quia voluptatibus
+                    fuga aliquam non.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem nemo commodi libero
+                   </p>
+                   <p class="text-justify fa-desc">
+                        deserunt atque rerum numquam possimus velit dolorum culpa, obcaecati ratione enim, modi eveniet
+                    temporibus aliquid error aspernatur!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem nemo commodi libero
+                    deserunt atque rerum numquam possimus velit dolorum culpa, obcaecati ratione enim, modi eveniet
+                    temporibus aliquid error aspernatur!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem nemo commodi libero
+                    deserunt atque rerum numquam possimus velit dolorum culpa, obcaecati ratione enim, modi eveniet
+                    temporibus aliquid error aspernatur!
+                   </p>
+                <p class="text-center">
+                    <a href="/contact" class="custom-button">S'informer</a>
                 </p>
-            </div>
-            <div class="col-lg-6">
-                <img src="" alt="illustration farm adwiz" class="img img-fluid">
             </div>
         </div>
     </main>
+
     {{> _footer}}
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script type="text/x-handlebars-template" src="../js/app.js"></script>
+
 </body>
 
 </html>
