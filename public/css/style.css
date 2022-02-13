@@ -39,7 +39,9 @@ body h1{
 }
 .services-description{
     text-align: center;
+    display: none;
 }
+
 .services-description a{
     color: #0db04f;
     text-decoration: none;
@@ -251,19 +253,24 @@ body h1{
     
     padding:5%;
 }
-fa-container{
-    margin-top: 10%;
-    
+.fa-container{
+    margin-top: 10%;  
+}
+.fa-container a:hover{
+    color: #444;
 }
 #gradient{
-    margin: 6% 0 10% 0;
-    background-image: url('../images/farmadwiz.png') ,linear-gradient(to right, #a8e230, #444);
+    margin: 6% 0 6% 0;
+    background-image: url('../images/farmadwiz.png');
+    /* linear-gradient(to right, #a8e230, #444) */
     background-repeat: no-repeat;
     background-origin: initial;
     /* background-origin:content-box; */
     background-size: cover;
-    /* background-image: linear-gradient(to right, #0db04f, #000); */
     color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    /* background-image: linear-gradient(to right, #0db04f, #000); */
 }
 .fa-desc{
     margin-bottom: 5%;
@@ -303,3 +310,4 @@ footer{
         font-size: 3em;
         font-weight: bolder;
     }
+
