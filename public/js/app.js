@@ -22,7 +22,7 @@ $(document).ready(function(){
       } 
 
      //toggle class  on the navigation
-      $(" .nav-link").click(function () {
+      $("#header .nav-item") .click(function () {
         // If the clicked element has the active class, remove the active class from EVERY .nav-link>.state element
         if ($(this).hasClass("active")) {
           $(".nav-link").removeClass("active");
