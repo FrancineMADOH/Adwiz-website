@@ -89,6 +89,13 @@ body h1{
 .testimony{
     margin: 6% 0 4% 0;
 }
+.ask-service-text{
+padding:20px;
+text-align:justify
+}
+.ask-service-image{
+    margin-top: 10%;
+}
 .about-intro {
     margin:5% 0 1% 0;
     font-size: 1em;
@@ -146,6 +153,7 @@ body h1{
     text-align: center;
 }
 .client-testimonial-text{
+    text-align: justify;
     font-size: 1.2em;
     font-weight: 400;
 }
@@ -168,16 +176,18 @@ body h1{
     margin:10% 0 10% 0;
 }
 .our-moto{
-    margin: 5% 2% 0% 2%;
+    margin: 8% 2% 0% 2%;
     padding: 2%;
 }
 .moto-title{
-    margin: 2% ;
+    margin: 1% ;
+    text-align: justify;
     font-weight: bold;
     color:#0db04f;
 }
 .moto-description{
-    margin: 10% 0 0 0;
+    margin: 6% 0 0 0;
+    text-align: justify;
 }
 .our-method{
     margin: 5% 2% 5% 2%;
@@ -185,40 +195,27 @@ body h1{
 .method-description{
     margin: 10% 0 5% 0;
 }
+.pack-service{
+    margin: 8% 0 8% 0;
+}
 .our-method h3{
     font-weight: bold;
 }
 .pack-service-title{
     color: #0db04f;
+    font-weight: bold;
+    margin: 5% 0 5% 0;
 }
 .pack-service-description{
     margin: 10% 2% 10% 2%;
     font-size: 1em;
 }
-.pack-list{
-    margin: 2% 5% 2% 5%;
-}
-.pack-list-title{
-    color: #0db04f;
-    font-weight: bold;
-    margin: 2% 0 2% 0;
-}
-.pack-list{
-    margin: 5% 0 5% 0;
-}
-.pack-items-list{
-    margin: 0 0 3% 0;
-}
-.pack-items-list li{
-    font-weight: 400;
-    font-size: 20px;
-}
-.pack-items-list i{
-    font-size: 20px;
-    color: #0db04f;
+.pack-service-char{
+    font-weight: bolder;
+    margin-bottom: 2%;
 }
 .service-testimonial{
-    margin: 3% 3% 0 3%;
+    margin: 8% 3% 0 3%;
     background-color: #d5e0d9;
 }
 .client-testimonial-title{
@@ -287,7 +284,8 @@ body h1{
     /* background-image: linear-gradient(to right, #0db04f, #000); */
 }
 .fa-desc{
-    margin-bottom: 5%;
+    margin: 5%;
+    text-align: justify;
 }
 .fa-title{
     margin-bottom: 5%;
