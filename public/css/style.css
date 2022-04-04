@@ -117,6 +117,17 @@ text-align:justify
     display: inline-flex;
     flex-wrap: wrap;
 }
+.achievements{
+    margin: 5% 0 3% 0;
+    color:#a8e230;
+    font-weight: bold;
+}
+.mosaic{
+    margin: 5% 0 5% 0;
+}
+.team-member-description{
+    text-align: center;
+}
 
 .partners-trust{
  margin-bottom: 10%;
@@ -282,6 +293,9 @@ text-align:justify
     font-size: 1.2em;
     font-weight: 400;
     /* background-image: linear-gradient(to right, #0db04f, #000); */
+}
+.achievements-text{
+    text-align: justify;
 }
 .fa-desc{
     margin: 5%;

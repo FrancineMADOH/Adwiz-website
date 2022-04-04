@@ -19,10 +19,9 @@ app.get('/', (req,res)=>{
 app.get('/about', (req,res)=>{
     res.render('about',{
         titre1:'À-Propos d\'Adwiz',
-        titre2:'Nos Recompenses',
+        titre2:'Nos Récompenses',
         titre3:'Ils nous ont fait confiance...',
-        titre4:'Une equipe dynamique et polyvalente a votre ecoute!',
-        titre5:'Nos clients temoignent !'
+        titre4:'Une équipe dynamique et polyvalente â votre écoute!',
     })
 })
 
