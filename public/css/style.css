@@ -122,6 +122,25 @@ text-align:justify
     color:#a8e230;
     font-weight: bold;
 }
+.about-desc{
+    text-align: justify;
+    padding: 3%;
+
+}
+.about-title{
+    color:#0db04f;
+    font-weight: bold;
+    text-align: center;
+    margin: 1%;
+}
+.ourgoal{
+    margin: 4%;
+}
+.ourgoal-text{
+    border: solid 1px #777;
+    border-radius: 60px;
+    padding: 2%;
+}
 .mosaic{
     margin: 5% 0 5% 0;
 }
