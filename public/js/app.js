@@ -1,3 +1,6 @@
+const { response } = require("express");
+const SendmailTransport = require("nodemailer/lib/sendmail-transport");
+
 $(document).ready(function(){
 
     //dynamically  show the date 
@@ -34,4 +37,25 @@ $(document).ready(function(){
         }
       });
      
+      // Fetch data from the contact form
+      const form  = document.getElementById('contact-us');
+
+      // listen to the form submission
+      const formEvent = form.addEventListener('submit', (e)=>{
+        e.preventDefault(form);
+      })
+
+      //send the mail
+      let mail = new FormData(form);
+      console.log(mail)
+
+      const sendMail = (mail)=>{
+        fetch('send', {
+          method:'post',
+          body: mail 
+        }).then((response)=>{
+          return response.json()
+        })
+      }
+      sendMail(mail);
 });
