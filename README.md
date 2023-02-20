@@ -1,10 +1,27 @@
 # Adwiz-website
 
-The static website of Adwiz local business
-https://stackoverflow.com/questions/14149360/text-on-image-mouseover
-https://sixads.net/blog/testimonial-examples/
-https://fontawesome.com/v4.7/icons/
-https://www.hootsuite.com/training-services (services page)
-https://www.w3schools.com/howto/howto_css_coming_soon.asp 
-https://www.wordstream.com/blog/ws/2020/08/11/coming-soon-landing-page (coming soon)
-https://gist.github.com/prof3ssorSt3v3/16cf1277e5ecdcc9f424283f0080f52b (language )
+## The static website of Adwiz Consulting a  local business in cameroon
+
+
+Getting Started
+
+To use these files, simply merge the folders into the root directory of your scaffolded Angular application.
+How to use
+Installing dependencies
+
+After cloning the repo ,run `npm install` to get all the project dependencies
+
+### Development server
+
+Run the app with the `npm run start ` command by default this laucht he app on port 3000 on production mode you mmight run `npm run start`
+
+Running unit tests
+
+Tests are not implemented on this project.
+
+
+
+To get more help on the use of express and ejs templating visit 
+- `https://ejs.co/` 
+- `https://expressjs.com/` 
+
